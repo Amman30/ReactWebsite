@@ -1,0 +1,37 @@
+.posts{
+  flex: 8;
+  display: flex;
+  flex-wrap: wrap;
+
+  background-color: #BFA2DB;
+
+
+}
+.img{
+  width: 385px;
+  margin-left: 40px;
+  border-radius: 3em;
+padding: 10px 10px 10px 10px;
+
+
+}
+.text{
+  text-align: center;
+  font-style: italic;
+  font-weight:bold;
+  color: #FF0075;
+
+
+}
+.qwerty{
+z-index: 999;
+flex: 10;
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+padding: 30px;
+font-family: cursive;
+font-size: 18px;
+
+
+}

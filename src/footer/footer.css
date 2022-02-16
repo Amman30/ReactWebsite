@@ -1,0 +1,25 @@
+#sticky-footer {
+
+
+  background-color:  black;
+  color: white;
+  flex: 1 0 auto;
+  text-align: center;
+  padding: 19px 19px 19px 19px;
+
+
+
+}
+.topicon{
+flex: 3;
+display: inline-block;
+justify-content: center;
+background-color: white;
+border-radius: 100%;
+cursor: pointer;
+padding: 3px 3px 3px 3px;
+}
+.copy{
+margin-top: 20px;
+font-size: 20px;
+}

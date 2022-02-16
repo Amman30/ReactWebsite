@@ -1,0 +1,38 @@
+.sidebar{
+  flex: 4;
+  margin: 20px;
+  padding-bottom: 30px;
+
+
+}
+.hulkimg{
+  width: 400px;
+  height: 200px;
+  margin-top: 19px;
+  border-radius: 1em;
+
+}
+.sidebarSocialicon{
+  display: inline-block;
+  font-size: 23px;
+    justify-content: center;
+    margin-right: 40px;
+  font-weight:bolder;
+  cursor: pointer;
+}
+.sidebarlistsitem{
+  display:inline;
+  font-size:18px;
+    margin-right: 20px;
+  font-weight:bolder;
+  cursor: pointer;
+}
+.sidebarTitle{
+  font-size:20px;
+  color: #6ECB63;
+}
+.ptext{
+  font-family: cursive;
+  
+
+}

@@ -1,0 +1,102 @@
+.settings{
+  display: flex;
+height: 1000px;
+background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("akm11.png");
+background-size: cover;
+}
+.settingswrapper{
+  flex: 9;
+  padding: 20px;
+}
+.settingstitle{
+  display:inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
+.settingsupdatetitle{
+
+  margin-bottom: 20px;
+  font-size: 30px;
+  margin-left: 200px;
+  color: #867AE9;
+
+
+  font-family: serif;
+}
+
+.settingsdeletetitle{
+color: red;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 550px;
+
+
+
+
+}
+.settingsform{
+display: block;
+flex-direction:row-reverse;
+margin-top: 100px;
+
+}
+.settingspp{
+  display: flex;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+}
+.settingspp > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  object-fit: cover;
+
+}
+
+.settingsppicon{
+  width: 26px;
+  height: 25px;
+  border-radius:50%;
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
+.settingsform > label{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 23px;
+  color: #867AE9;
+
+
+
+}
+.settingsform > input{
+
+  margin: 10px 0;
+  border-bottom: 5px solid lightgray;
+  border-top:5px solid lightgray;
+  border-left: 5px solid lightgray;
+  border-right: 5px solid lightgray;
+border-radius: none;
+width: 1300px;
+height: 35px;
+border-radius: 150px;
+
+}
+.settingsSubmit{
+  width: 100px;
+  align-items: center;
+  border: none;
+border-radius: 30px;
+color:white;
+cursor: pointer;
+background-color: green;
+padding: 10px;
+margin-top: 20px;
+display:grid;
+margin-left: 590px;
+}

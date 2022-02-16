@@ -1,0 +1,33 @@
+.header{
+  margin-top: 60px;
+
+
+}
+.header1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lora',serif;
+  color: #FFDEDE;
+  background-color: black;
+
+}
+.bgimg{
+  margin-left: 10px;
+  width: 1600px;
+  color: #1DB9C3;
+}
+.span1{
+  position: absolute;
+  top:18%;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+
+}
+.span2{
+  position: absolute;
+  top:20%;
+  font-size: 100px;
+  color: #297F87;
+}

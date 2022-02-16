@@ -1,0 +1,63 @@
+.register{
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("akm10.png");
+  background-size: cover;
+  align-items: center;
+
+}
+.registerTitle{
+  font-size: 60px;
+  color: white;
+  background-color: #29C7AC;
+  border-radius: 100px;
+font-family: serif;
+}
+.registerForm{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  color: #30475E;
+
+}
+.registerForm > label{
+  margin: 10px 0;
+}
+.registerInput{
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+}
+.registerbutton{
+  margin-top: 23px;
+  cursor: pointer;
+  background-color: #3282B8;
+  border:none;
+  color: white;
+  border: 10px;
+  padding: 10px;
+  border-radius: 10px;
+height: 30px;
+}
+.loginbutton{
+  /* position: absolute;
+  top: 60px;
+  right:20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  height: 25px;
+  height: 21px;
+  color: white;
+  border-radius: 13px; */
+}
+.topicon{
+  display:inline-block;
+  flex-direction: column;
+  margin-left: 30px;
+  cursor: pointer;
+}
